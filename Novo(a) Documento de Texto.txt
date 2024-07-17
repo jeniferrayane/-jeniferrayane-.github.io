@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sistema ABO</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Link para o arquivo CSS -->
+</head>
+<body>
+    <header style="background-color: #800000;">
+        <div class="container">
+            <h1>Bem-vindo ao Sistema ABO</h1>
+            <nav>
+                <ul>
+                    <li><a href="#inicio">Início</a></li>
+                    <li><a href="#sobre">Sobre</a></li>
+                    <li><a href="#quiz">Quiz</a></li>
+                    <li><a href="#curiosidades">Curiosidades</a></li>
+                    <li><a href="#hemocentros">Hemocentros</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section id="inicio" class="section">
+            <div class="container">
+                <h2>Início</h2>
+                <p>Bem-vindo ao nosso site sobre o Sistema ABO. Explore os links abaixo para aprender mais!</p>
+                <ul>
+                    <li><a href="#sobre">Sobre o Sistema ABO</a></li>
+                    <li><a href="#quiz">Quiz sobre o Sistema ABO</a></li>
+                    <li><a href="#curiosidades">Curiosidades</a></li>
+                    <li><a href="#hemocentros">Hemocentros no Brasil</a></li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="sobre" class="section">
+            <div class="container">
+                <h2>Sobre o Sistema ABO</h2>
+                <p>A história da descoberta do sistema ABO remonta a...</p>
+                <p>O sistema ABO classifica o sangue humano em...</p>
+                <p>A doação de sangue é crucial para manter os estoques...</p>
+            </div>
+        </section>
+
+        <section id="quiz" class="section">
+            <div class="container">
+                <h2>Quiz sobre o Sistema ABO</h2>
+                <!-- Aqui você pode adicionar um jogo de perguntas e respostas -->
+            </div>
+        </section>
+
+        <section id="curiosidades" class="section">
+            <div class="container">
+                <h2>Curiosidades</h2>
+                <ul>
+                    <li>Curiosidade 1: ...</li>
+                    <li>Curiosidade 2: ...</li>
+                    <li>Curiosidade 3: ...</li>
+                    <!-- Adicione mais curiosidades conforme necessário -->
+                </ul>
+            </div>
+        </section>
+
+        <section id="hemocentros" class="section">
+            <div class="container">
+                <h2>Hemocentros no Brasil</h2>
+                <p>A doação de sangue é essencial para salvar vidas...</p>
+                <p>Encontre um hemocentro perto de você:</p>
+                <a href="https://www.gov.br/saude/pt-br/acesso-a-informacao/acoes-e-programas/doacao-de-sangue/hemocentros-no-brasil" target="_blank">Lista de Hemocentros no Brasil</a>
+            </div>
+        </section>
+    </main>
+
+    <footer style="background-color: #800000; color: white; text-align: center; padding: 1rem 0;">
+        <div class="container">
+            <p>© 2024 Sistema ABO. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script> <!-- Link para o arquivo JavaScript -->
+</body>
+</html>
